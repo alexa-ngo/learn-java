@@ -4,8 +4,8 @@ public class HelloCat
     {
         System.out.println("    /\\_/\\        -------     ");
         System.out.println("   { ' ' }      /  Hello  \\   ");
-        System.out.println("    ( - )      <  Friend! |   ");
-        System.out.println("    | | |       \\   <3    /    ");
-        System.out.println("   (__|__)       -------     ");
+        System.out.println("    ( - )      <  Friend! |    ");
+        System.out.println("    | | |       \\   <3    /   ");
+        System.out.println("   (__|__)       -------       ");
     }
 }
