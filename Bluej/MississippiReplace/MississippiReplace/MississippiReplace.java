@@ -4,5 +4,6 @@ public class MississippiReplace
     {
         String stateName = "Mississippi";
         System.out.println(stateName.replace("i","ii"));
+        System.out.println(stateName.replace("ss","s"));
     }
 }
