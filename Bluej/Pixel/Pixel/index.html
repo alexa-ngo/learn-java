@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Render Pixel</title>
+		
+		<style>
+			#pixel{
+				display: block;
+				width: 200px;
+				height: 200px;
+				border: 2px solid black;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="pixel"></div>
+		
+		<script>
+			const div = document.querySelector("#pixel");
+			const input = '{"r":169,"g":162,"b":0}';
+			const color = JSON.parse(input);
+			div.style.backgroundColor = `rgb(${color.r}, ${color.g}, ${color.b})`;
+		</script>
+	</body>
+</html>
