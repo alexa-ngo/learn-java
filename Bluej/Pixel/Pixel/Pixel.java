@@ -15,6 +15,14 @@ public class Pixel {
         return this._color.getRed();    // wrapping the getRed()
     }
     
+    private Pixel(int green, int blue) {
+        this._color = new Color(255, green, blue);
+    }
+    
+    public static Pixel getVeryRedPixel(int green, int blue) {
+        return new Pixel(green, blue);   
+    }    
+    
     public int getGreen() {
         return this._color.getGreen();
     }
@@ -38,7 +46,7 @@ public class Pixel {
     }
     
     
-    public void darken(int delta) {
+    private void darken(int delta) {
         int tempRed = this._color.getRed();
         int tempGreen = this._color.getGreen();
         int tempBlue = this._color.getBlue();
