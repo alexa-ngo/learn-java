@@ -1,7 +1,7 @@
-public class SetLimitPeople
-{
+public class SetLimitPeople{
     private int value;
     private int limit;
+    
     public void setLimit(int maximum){
         limit = maximum;
         System.out.println(limit);

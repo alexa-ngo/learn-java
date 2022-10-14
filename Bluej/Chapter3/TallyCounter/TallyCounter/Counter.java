@@ -16,5 +16,6 @@ public class Counter{
     public void undo() { 
         if (Math.max(value, 0) >= 1)
             value = value - 1;
-        }
+    }
+    
 }
