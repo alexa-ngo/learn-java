@@ -1,3 +1,32 @@
 #BlueJ package file
-#Wed Sep 28 15:55:00 PDT 2022
+editor.fx.0.height=1005
+editor.fx.0.width=1092
+editor.fx.0.x=2490
+editor.fx.0.y=836
+objectbench.height=93
+objectbench.width=1452
+package.divider.horizontal=0.6
+package.divider.vertical=0.9344262295081968
+package.editor.height=1418
+package.editor.width=1346
+package.editor.x=1510
+package.editor.y=431
+package.frame.height=1627
+package.frame.width=1476
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
 project.charset=UTF-8
+readme.height=60
+readme.name=@README
+readme.width=49
+readme.x=10
+readme.y=10
+target1.height=70
+target1.name=TrimAndReplace
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=150
+target1.x=70
+target1.y=10
